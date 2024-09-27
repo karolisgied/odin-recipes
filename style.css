@@ -1,6 +1,69 @@
 h1 {
     color: red;
 }
+
 .main {
-    color: blue;
+    color: rgb(191, 153, 71);
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    border: 20px solid red;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    background-image: linear-gradient(to right, #ff9d9d, #511b04);
+}
+
+.paragraph {
+    border: 5px solid red;
+}
+
+li {
+    text-align: center;
+}
+
+body{
+    background-color: #923647;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose {   
+    
+    text-decoration: underline;
+    color: #b0714e;
+}
+
+ul {
+
+    width: 300px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(159, 243, 2);
+    font-size: 28px;
+}
+
+/* On hover effect */
+a:hover {
+    color: red;
+    text-decoration: underline;
+    font-size: 40px;
 }
